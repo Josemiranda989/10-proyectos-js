@@ -1,0 +1,7 @@
+.proyects {
+    display: flex;
+}
+
+.proyect img {
+    width: 30%
+}

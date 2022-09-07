@@ -22,6 +22,10 @@ app.get("/countdown", (req, res) => {
   res.render("countdown");
 });
 
+app.get("/rating", (req, res) => {
+  res.render("rating");
+});
+
 app.listen(port, () => {
   console.log(`Servidor corriendo en http://localhost:${port}`)
 })
